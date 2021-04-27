@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+
+section {
+  background: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  text-align: center;
+  width: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: white;
+  position: relative;
+}
+
+.card-header {
+  background-image: url(./images/bg-card.svg);
+  background-size: cover;
+  height: 135px;
+}
+
+.card-body {
+  padding: 0 20px 25px;
+}
+
+.image-holder {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  margin: -55px auto 30px auto;
+}
+
+.image-holder img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  padding: 5px;
+  background: white;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.name .age {
+  color: hsl(0, 0%, 59%);
+  padding-left: 5px;
+}
+
+.city {
+  font-size: 14px;
+  color: hsl(0, 0%, 59%);
+  padding: 20px 0;
+}
+
+.meta {
+  color: hsl(0, 0%, 59%);
+}
+
+.value {
+  font-weight: 700;
+}
+
+.card-footer {
+  border-top: 1px solid hsl(0, 0%, 85%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-footer .item {
+  padding: 30px;
+}
+
+.card-footer .item 
+.value {
+ font-size: 18px;
+ font-weight: 1000;
+}
+
+.card-footer .item 
+.meta {
+  padding-top: 10px;
+  letter-spacing: 2px;
+}
+
+.circles .circle,
+.circles .circle1 {
+  position: absolute;
+}
+
+.circles .circle {
+  top: -140px;
+  left: -300px;
+}
+
+.circles .circle1 {
+  bottom: -270px"";
+  right: -300px;
+}
